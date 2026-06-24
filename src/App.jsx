@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ProfilePanel from "./components/catalogView.jsx";
+import ProfilePanel from "./components/ProfilePanel.jsx";
 import ChatInterface from "./components/ChatInterface.jsx";
 import CatalogView from "./components/CatalogView.jsx";
 import { checkHealth, API_BASE } from "./services/api";

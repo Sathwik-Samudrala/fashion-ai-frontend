@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ProfilePanel from "./components/ProfilePanel.jsx";
 import ChatInterface from "./components/ChatInterface.jsx";
-import CatalogView from "./components/CatalogView.jsx";
+import CatalogView from "./components/catalogView.jsx";
 import { checkHealth, API_BASE } from "./services/api";
 
 const EMPTY_PROFILE = { gender: "", occasion: "", stylePreference: "", age: "", budget: "" };

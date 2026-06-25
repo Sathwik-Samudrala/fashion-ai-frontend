@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Backend API root, e.g. "http://127.0.0.1:8000/api" (override via frontend/.env -> VITE_API_URL)
-const RAW_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api" || "https://fashion-ai-backend-1-rtvk.onrender.com";
+const RAW_BASE = import.meta.env.VITE_API_URL || "https://fashion-ai-backend-1-rtvk.onrender.com" || "http://127.0.0.1:8000/api";
 export const API_BASE = RAW_BASE.replace(/\/+$/, "");
 
 // Backend origin without the trailing /api, used to resolve relative asset
